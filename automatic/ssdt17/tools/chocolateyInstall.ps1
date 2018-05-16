@@ -12,6 +12,8 @@ if ($Matches.Major -eq 6 -and $Matches.Minor -eq 3)
     }
 }
 
+$pp = Get-PackageParameters
+
 $packageArgs = @{
   packageName   = 'ssdt17'
   unzipLocation = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -22,6 +24,47 @@ $packageArgs = @{
   softwareName  = 'ssdt17*'
   checksum      = $checksum
   checksumType  = 'sha256'
+}
+
+if ($pp['analysis'] -and $pp['integration'] -and $pp['reporting'] -and ($pp['analysis'] -eq $pp['integration'] -eq $pp['reporting']))
+{
+    $packageArgs.silentArgs += " INSTALLALL"
+    if ($pp['analysis'] -ne 'true')
+    {
+        # we know that all the parameters have the same VS2017 instances so we just take the value of one of the parameters.
+        $packageArgs.silentArgs += ":$($pp['analysis'])"
+    }
+}
+else 
+{
+    if ($pp['analysis'])
+    {
+        $packageArgs.silentArgs += " INSTALLAS"
+        if ($pp['analysis'] -ne 'true')
+        {
+            $packageArgs.silentArgs += ":$($pp['analysis'])"
+        }
+    }
+
+    if ($pp['integration'])
+    {
+        $packageArgs.silentArgs += " INSTALLIS"
+        if ($pp['integration'] -ne 'true')
+        {
+            $packageArgs.silentArgs += ":$($pp['integration'])"
+        }
+    }
+
+    if ($pp['reporting'])
+    {
+        $packageArgs.silentArgs += " INSTALLRS"
+        if ($pp['reporting'] -ne 'true')
+        {
+            $packageArgs.silentArgs += ":$($pp['reporting'])"
+        }
+    }
+
+    # else default installation of tools
 }
 
 Install-ChocolateyPackage @packageArgs
