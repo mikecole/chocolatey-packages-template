@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>office365proplus</id>
-    <version>2016.20190301</version>
+    <version>2016.20190408</version>
     <title>Office 365 ProPlus</title>
     <authors>Microsoft</authors>
     <owners>Mike Cole</owners>
@@ -22,7 +22,7 @@ Get the latest versions of your familiar Office programs, such as Word, Excel an
 subscription. This will download and silently install the entire Office 365 2016 Professional Plus edition. A license is required
 and you will be prompted to enter your account information upon first launching the software after install.
       
-You can creat a custom config.xml at https://config.office.com/deploymentsettings
+You can create a custom config.xml at https://config.office.com/deploymentsettings
         </description>
     <summary>Office 365 ProPlus</summary>
     <releaseNotes>https://docs.microsoft.com/en-us/officeupdates/update-history-office365-proplus-by-date</releaseNotes>
