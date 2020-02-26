@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '58539775D0C283C553FF09FF6304E03BCD5FAAB8FD2AC5FF7E881F661CB01D96'
+$checksum = '58539775d0c283c553ff09ff6304e03bcd5faab8fd2ac5ff7e881f661cb01d96'
 
 $packageArgs = @{
   packageName   = 'glip'
