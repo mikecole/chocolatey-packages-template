@@ -1,17 +1,17 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '7F8A6C9882B5069E074777912C837417521235E373F56773B92A69E0A1C429AD'
+$checksum = '65A7FC311B272E4C11ED30FC343F5922E2D07F538B161EBE6E783A005A329370'
 $url = 'https://zoom.us/client/4.6.13610.1201/ZoomInstallerFull.msi'
 
 $packageArgs = @{
-  packageName   = 'zoom'
-  unzipLocation = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-  fileType      = 'msi'
-  url           = $url
-  silentArgs    = '/quiet /norestart'
-  validExitCodes= @(0)
-  softwareName  = 'zoom*'
-  checksum      = $checksum
-  checksumType  = 'sha256'
+  packageName    = 'zoom'
+  unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+  fileType       = 'msi'
+  url            = $url
+  silentArgs     = '/quiet /norestart'
+  validExitCodes = @(0)
+  softwareName   = 'zoom*'
+  checksum       = $checksum
+  checksumType   = 'sha256'
 }
 
 Install-ChocolateyPackage @packageArgs
