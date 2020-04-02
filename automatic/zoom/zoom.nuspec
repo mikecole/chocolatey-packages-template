@@ -3,7 +3,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>zoom</id>
-    <version>4.8.5336.0933</version>
+    <version>4.8.6.0</version>
     <packageSourceUrl>https://github.com/mikecole/chocolatey-packages</packageSourceUrl>
     <owners>Mike Cole, Kyle McNally</owners>
     <title>Zoom Client for Meetings</title>
@@ -12,7 +12,13 @@
     <copyright>Copyright ©2017 Zoom Video Communications, Inc. All rights reserved.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>zoom admin webinar webcam meeting</tags>
-    <description>Zoom unifies cloud video conferencing, simple online meetings, group messaging, and a software-defined conference room solution into one easy-to-use platform. Our solution offers the best video, audio, and wireless screen-sharing experience across Windows, Mac, iOS, Android, Blackberry, Linux, Zoom Rooms, and H.323/SIP room systems. Founded in 2011, Zoom's mission is to develop a people-centric cloud service that transforms the real-time collaboration experience and improves the quality and effectiveness of communications forever.</description>
+    <description>
+      Zoom unifies cloud video conferencing, simple online meetings, group messaging, and a software-defined conference room solution into one easy-to-use platform. 
+      solution offers the best video, audio, and wireless screen-sharing experience across Windows, Mac, iOS, Android, Blackberry, Linux, Zoom Rooms, and H.323/SIP
+      room systems. Founded in 2011, Zoom's mission is to develop a people-centric cloud service that transforms the real-time collaboration experience and improves
+      the quality and effectiveness of communications forever. *Please Note:* The version numbers of this package does not currently match the version number of Zoom. 
+      This is something that will eventually work itself out, but please note that this currently references Zoom Version 4.6.9 (19253.0401).
+    </description>
     <summary>Zoom unifies cloud video conferencing, simple online meetings, group messaging, and a software-defined conference room solution into one easy-to-use platform.</summary>
     <iconUrl>https://cdn.staticaly.com/gh/mikecole/chocolatey-packages/master/icons/zoom.png</iconUrl>
     <docsUrl>https://support.zoom.us/hc/en-us</docsUrl>
