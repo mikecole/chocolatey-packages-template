@@ -1,3 +1,4 @@
+﻿$ErrorActionPreference = 'Stop'
 import-module au
 
 $download_url = 'https://link.gotomeeting.com/minimum-build-msi'
