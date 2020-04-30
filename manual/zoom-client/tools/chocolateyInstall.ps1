@@ -8,7 +8,7 @@ $packageArgs = @{
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   fileType       = 'msi'
   url            = $url
-  silentArgs     = '/quiet /norestart'
+  silentArgs     = '/quiet /norestart ZoomAutoUpdate=True'
   validExitCodes = @(0)
   softwareName   = 'zoom*'
   checksum       = $checksum
