@@ -3,21 +3,21 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>glip</id>
-    <version>20.2.11.32</version>
-    <title>glip</title>
+    <version>21.0.0.0</version>
+    <title>[Deprecated] glip</title>
     <authors>RingCentral</authors>
     <owners>Mike Cole</owners>
     <licenseUrl>https://www.ringcentral.com/legal/eulatos.html</licenseUrl>
     <projectUrl>https://www.ringcentral.com/teams/overview.html</projectUrl>
-    <iconUrl>https://cdn.staticaly.com/gh/mikecole/chocolatey-packages/master/icons/glip.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>In the digital age, it’s an increasing challenge to connect teams due to the rich variety of resources. Glip provides a single, unified team workspace that empowers you to work, communicate, and collaborate faster and more effectively than ever before. Emails, scattered discussions, and disjointed resources are drastically reduced as teams share conversations, files, tasks, and calendars. Your teams, whether internal or external, can collaborate using their favorite devices anytime, anyplace—all within the Glip team workspace.</description>
+    <description>This package is deprecated because RingCentral re-branded their Glip offering to RingCentral Classic. Please use **ringcentral-classic** package.</description>
     <summary></summary>
     <packageSourceUrl>https://github.com/mikecole/chocolatey-packages/tree/master/automatic/glip</packageSourceUrl>
     <copyright>Copyright 1999-2018 RingCentral, Inc.</copyright>
     <tags>chat communicator</tags>
+    <dependencies>
+      <dependency id="ringcentral-classic" />
+    </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
+  <files />
 </package>
