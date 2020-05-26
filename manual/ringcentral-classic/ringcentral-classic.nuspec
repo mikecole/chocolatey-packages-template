@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ringcentral-classic</id>
-    <version>20.2.11.35</version>
+    <version>20.2.11.36</version>
     <title>RingCentral Classic</title>
     <authors>RingCentral</authors>
     <owners>Mike Cole</owners>
@@ -11,8 +11,8 @@
     <projectUrl>https://www.ringcentral.com/teams/overview.html</projectUrl>
     <iconUrl>https://cdn.staticaly.com/gh/mikecole/chocolatey-packages/master/icons/ringcentral-classic.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <summary>**RingCentral Classic** gives you a more unified experience by allowing you to collaborate with your colleagues in one place, from anywhere and on any device. It is suitable for knowledge workers and for all Users alike, who want to maximize their productivity and minimize the number of open apps as they work.</summary>
-    <description>Free team messaging, video meetings, task management, and more—together in one app.</description>
+    <description>**RingCentral Classic** gives you a more unified experience by allowing you to collaborate with your colleagues in one place, from anywhere and on any device. It is suitable for knowledge workers and for all Users alike, who want to maximize their productivity and minimize the number of open apps as they work.</description>
+    <summary>Free team messaging, video meetings, task management, and more—together in one app.</summary>
     <packageSourceUrl>https://github.com/mikecole/chocolatey-packages/tree/master/</packageSourceUrl>
     <copyright>Copyright 1999-2018 RingCentral, Inc.</copyright>
     <tags>chat communicator</tags>
