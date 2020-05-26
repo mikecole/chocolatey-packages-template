@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>This package is deprecated because RingCentral re-branded their Glip offering to RingCentral Classic. Please use **ringcentral-classic** package.</description>
     <summary></summary>
-    <packageSourceUrl>https://github.com/mikecole/chocolatey-packages/tree/master/automatic/glip</packageSourceUrl>
+    <packageSourceUrl>https://github.com/mikecole/chocolatey-packages</packageSourceUrl>
     <copyright>Copyright 1999-2018 RingCentral, Inc.</copyright>
     <tags>chat communicator</tags>
     <dependencies>
