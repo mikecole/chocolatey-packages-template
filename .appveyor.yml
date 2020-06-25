@@ -19,34 +19,34 @@ environment:
   au_test_groups: 1
 
   # Github token to commit pushed packages to repository
-  github_user_repo: {github_user}/{repository}
+  github_user_repo: mikecole/chocolatey-packages
   github_api_key:
-    secure: YOUR_GITHUB_API_KEY_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+    secure: zEpvSJqlhGNJ3L4pkcK46ODFJgZ5YV17WLfIh9uG7ceNIB8aGbWB5/riJ4Y9erFL #https://ci.appveyor.com/tools/encrypt
 
 
   # Mail credentials - for error notifications
   mail_user:
-    secure: YOUR_EMAIL_ACCOUNT_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+    secure: f1b37qZCl2yPhKU+jImf1A== #https://ci.appveyor.com/tools/encrypt
   mail_pass:
-    secure: YOUR_EMAIL_PASSWORD_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
-  mail_server: smtp.gmail.com
-  mail_port: 587
+    secure: O8BzskF+zqskmndGRJOIO0ranq3GvH9kWZYqRFXXYiiffr0z25VtQ2C1liG2/8Q9w+Kg08nYqPWzmLJomGN4lEMx8BOgI/pm3JBkGW3zrsk= #https://ci.appveyor.com/tools/encrypt
+  mail_server: smtp.sendgrid.net
+  mail_port: 465
   mail_enablessl: true
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
   # Optional, leave empty to create anonymous gist
-  gist_id:
+  gist_id: fc383d2a7d15fa7825ca98990d04357a
 
   # Force test: gist id for test results
   gist_id_test:
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: YOUR_CHOCO_API_KEY_HERE_ENCRYPTED_STRING # https://ci.appveyor.com/tools/encrypt
+    secure: AgCVfgxYAvruyH6ygTftW/dDxOuSUw1TFE9I0tqgzjdhGFzzKye4PBC7OMQsENHH # https://ci.appveyor.com/tools/encrypt
 
 init:
-- git config --global user.email "chocolatey@realdimensions.net"
-- git config --global user.name "Chocolatey"
+- git config --global user.email "cole.mike@gmail.com"
+- git config --global user.name  "mikecole"
 - git config --global core.safecrlf false
 
 install:
@@ -99,7 +99,7 @@ artifacts:
 notifications:
 - provider: Email
   to: $(mail_user)
-  on_build_success: false
+  on_build_success: true
   on_build_failure: true
   on_build_status_changed: true
 
