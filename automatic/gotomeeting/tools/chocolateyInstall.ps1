@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-$checksum = '3aa138de3f8c5aaa079e995f448eeed09c1e2f3e3d96065362cb5ea0845649e6'
-$url = 'https://builds.cdn.getgo.com/builds/g2m/18425/G2MSetup10.12.18425_IT.msi?c_prod=g2mwt&c_cmp=care?c_prod=g2mwt&c_cmp=care'
+$checksum = 'dfb885d103ba0dc0f196a00953ac9d95637394abbd03d98c12f5c0632218fce3'
+$url = 'https://builds.cdn.getgo.com/builds/g2m/18705/G2MSetup10.13.18705_IT.msi?c_prod=g2mwt&c_cmp=care?c_prod=g2mwt&c_cmp=care'
 
 $packageArgs = @{
   packageName    = 'gotomeeting'
