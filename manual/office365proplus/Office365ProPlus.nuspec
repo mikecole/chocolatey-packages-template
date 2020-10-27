@@ -3,11 +3,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>office365proplus</id>
-    <version>2016.20200430</version>
+    <version>12827.20268</version>
     <title>Office 365 ProPlus</title>
     <authors>Microsoft</authors>
     <owners>Mike Cole</owners>
-    <licenseUrl>https://technet.microsoft.com/en-us/library/gg982959.aspx</licenseUrl>
+    <licenseUrl>http://windows.microsoft.com/en-us/windows-live/microsoft-services-agreement</licenseUrl>
     <projectUrl>http://office.microsoft.com/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
