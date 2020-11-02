@@ -6,7 +6,7 @@ $packageArgs = @{
   fileType       = 'zip'
   url            = 'http://www.zhornsoftware.co.uk/caffeine/caffeine.zip'
   validExitCodes = @(0)
-  checksum       = '04C446C72F4F55AB75FAE7503DBE1AA9AF4ACA1DE4C301F3D14B87BAD3F58315'
+  checksum       = 'FEEB7F7643D660C125E22E9D34B7EAA1B02C0F62D5536648EEF9EAC7E3800DBE'
   checksumType   = 'sha256'
 }
 
