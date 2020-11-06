@@ -7,7 +7,7 @@
     <title>Office 365 ProPlus</title>
     <authors>Microsoft</authors>
     <owners>Mike Cole</owners>
-    <licenseUrl>http://windows.microsoft.com/en-us/windows-live/microsoft-services-agreement</licenseUrl>
+    <licenseUrl>https://www.microsoft.com/en-us/servicesagreement/</licenseUrl>
     <projectUrl>http://office.microsoft.com/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
