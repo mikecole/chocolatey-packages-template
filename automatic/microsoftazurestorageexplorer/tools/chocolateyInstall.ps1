@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '0476b5eede198a0d170f7d8101b279ebf844694780cb80056ca31542fd4aab44'
+$checksum = 'a53047f8fa1df8a78c584bcf3cdd914d4c6e85ded5f6c4dc6611887b7cdc9836'
 
 $packageArgs = @{
   packageName    = 'microsoftazurestorageexplorer'
