@@ -1,5 +1,5 @@
-﻿$checksum = 'ae6a75bb540825d7cc3e956c29fb39a8c569e212dd455d9d7b20134309f20dd8'
-$url = 'https://downloads.plex.tv/plex-media-server-new/1.21.0.3616-d87012962/windows/PlexMediaServer-1.21.0.3616-d87012962-x86.exe'
+﻿$checksum = 'a53ae86b3c71a4976afc8f20d6b48b5dfc6d5bff1e4d2e39b364d8d178af29bd'
+$url = 'https://downloads.plex.tv/plex-media-server-new/1.21.0.3711-b509cc236/windows/PlexMediaServer-1.21.0.3711-b509cc236-x86.exe'
 
 Start-CheckandStop "Plex Media Server"
 
