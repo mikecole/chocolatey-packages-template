@@ -16,7 +16,6 @@
       This version is deprecated. Please use **zoom** package.
     </description>
     <summary>Zoom unifies cloud video conferencing, simple online meetings, group messaging, and a software-defined conference room solution into one easy-to-use platform.</summary>
-    <iconUrl>https://cdn.staticaly.com/gh/mikecole/chocolatey-packages/master/icons/zoom.png</iconUrl>
     <docsUrl>https://support.zoom.us/hc/en-us</docsUrl>
     <licenseUrl>http://zoom.us/pricing</licenseUrl>
     <bugTrackerUrl>https://support.zoom.us/hc/en-us/requests/new</bugTrackerUrl>
