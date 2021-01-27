@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>meinberg-ntp</id>
-        <version>4.2.8.0</version>
+        <version>4.2.8.15</version>
         <packageSourceUrl>https://github.com/mikecole/chocolatey-packages</packageSourceUrl>
         <title>Meinberg NTP</title>
         <authors>MEINBERG Radio Clocks</authors>
