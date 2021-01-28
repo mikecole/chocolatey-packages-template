@@ -6,11 +6,11 @@ $packageArgs = @{
   silentArgs     = '/VERYSILENT /NORESTART'
   validExitCodes = @(0)
   softwareName   = 'MoneyManagerEX*'
-  url32bit       = 'https://ayera.dl.sourceforge.net/project/moneymanagerex/v1.3.5/mmex-1.3.5-win32.exe'
-  checksum32     = 'E196E9E03DA66719D5B0D7CB2A0D868BDBCA2D7178EBCC4335316EC3E800E1FE'
+  url32bit       = 'https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.3.6/mmex-1.3.6-win32.exe'
+  checksum32     = 'E7B5F133DE6A2D1FDC4150D41954980FF27DA817E68F7358EF37BC73DA2AC8C3'
   checksumType32 = 'sha256'
-  url64bit       = 'https://phoenixnap.dl.sourceforge.net/project/moneymanagerex/v1.3.5/mmex-1.3.5-win64.exe'
-  checksum64     = 'BACAAE63C878769A0F574CD06FB406F4C71935BBF20102A738FC23E539F88B43'
+  url64bit       = 'https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.3.6/mmex-1.3.6-win64.exe'
+  checksum64     = '25118A25F3CC7982CE8326F3FEFF73A909BE50C8AC85CDF1BE04756E820121E6'
   checksumType64 = 'sha256'
 }
 
