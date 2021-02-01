@@ -1,0 +1,5 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+The installer includes files from Microsoft's download site before Microsoft removed several downloads.
