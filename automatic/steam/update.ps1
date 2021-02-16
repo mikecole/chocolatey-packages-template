@@ -17,7 +17,7 @@ function global:au_GetLatest {
     Invoke-WebRequest $url -OutFile $temp_file
 
     # Versioning in choco doesn't match installer. Rigging this to make updater work.
-    $version = '3.0.1.' + (Get-Command $temp_file).Version.ToString().Replace(".","")
+    $version = '3.0.2.' + (Get-Command $temp_file).Version.ToString().Replace(".","")
 
     $Latest = @{ URL = $url; Version = $version }
     return $Latest
