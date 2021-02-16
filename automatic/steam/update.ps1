@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 import-module au
 
-$url = 'http://media.steampowered.com/client/installer/SteamSetup.exe'
+$url = 'https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe'
 
 function global:au_SearchReplace {
     @{
