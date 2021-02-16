@@ -12,14 +12,12 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    Write-Host $url
-
     $temp_file = $env:TEMP + '\SteamSetup.exe'
+
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     Invoke-WebRequest $url -OutFile $temp_file
-    Write-Host $temp_file
 
     $version = (Get-Command $temp_file).Version
-    Write-Host $version
 
     $Latest = @{ URL = $url; Version = $version }
     return $Latest
