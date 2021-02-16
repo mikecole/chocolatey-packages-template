@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 import-module au
 
-$url = 'https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe'
+$url = 'http://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe'
 
 function global:au_SearchReplace {
     @{
@@ -14,7 +14,6 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $temp_file = $env:TEMP + '\SteamSetup.exe'
 
-    [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
     Invoke-WebRequest $url -OutFile $temp_file
 
     $version = (Get-Command $temp_file).Version
