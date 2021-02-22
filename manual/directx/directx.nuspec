@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>directx</id>
-    <version>9.29.1974.20210201</version>
+    <version>9.29.1974.20210222</version>
     <packageSourceUrl>https://github.com/mikecole/chocolatey-packages</packageSourceUrl>
     <title>DirectX</title>
     <authors>Microsoft</authors>
