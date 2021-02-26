@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '3bc6942fe09f10ed3447bccdcf4a70ed369366fef6b2c7f43b541f1a3c5d1c51'
+$checksum = '874788B45DFC043289BA05387E83F27B4A046004A88A4C5EE7C073187FF65B9D'
 
 Start-CheckandStop "Steam"
 
@@ -7,7 +7,7 @@ $packageArgs = @{
   packageName   = 'steam-client'
   unzipLocation = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   fileType      = 'exe'
-  url           = 'https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe'
+  url           = 'http://media.steampowered.com/client/installer/SteamSetup.exe'
   silentArgs    = '/S'
   validExitCodes= @(0)
   softwareName  = 'steam*'
