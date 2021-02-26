@@ -1,3 +1,4 @@
+﻿$ErrorActionPreference = 'Stop'
 $tempDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
