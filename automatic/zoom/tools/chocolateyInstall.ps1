@@ -4,8 +4,8 @@ $packageArgs = @{
   packageName    = 'zoom-client'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   fileType       = 'msi'
-  url            = 'https://cdn.zoom.us/prod/5.6.1.617/ZoomInstaller.exe'
-  url64          = 'https://cdn.zoom.us/prod/5.6.1.617/x64/ZoomInstaller.exe'
+  url            = 'https://cdn.zoom.us/prod/5.6.1.617/ZoomInstallerFull.msi'
+  url64          = 'https://cdn.zoom.us/prod/5.6.1.617/x64/ZoomInstallerFull.msi'
   silentArgs     = '/quiet /norestart ZoomAutoUpdate=True'
   validExitCodes = @(0)
   softwareName   = 'zoom*'

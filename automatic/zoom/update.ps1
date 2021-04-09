@@ -26,8 +26,8 @@ function global:au_GetLatest {
     $homepage_content -match 'Version \d+\.\d+\.\d (\(\d+\))'| Out-Null
     $recodeversion = $matches[0] -replace "Version ", ""
     $version = $recodeversion.Substring(0,5) + '.' + $recodeversion.Substring(7,3)
-    $url32 = $url_part1 + $version + '/ZoomInstaller.msi'
-    $url64 = $url_part1 + $version + '/x64/ZoomInstaller.msi'
+    $url32 = $url_part1 + $version + '/ZoomInstallerFull.msi'
+    $url64 = $url_part1 + $version + '/x64/ZoomInstallerFull.msi'
 
     $Latest = @{ URL32 = $url32; URL64=$url64; Version = $version }
     return $Latest
