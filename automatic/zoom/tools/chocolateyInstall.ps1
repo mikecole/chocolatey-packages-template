@@ -9,8 +9,8 @@ $packageArgs = @{
   silentArgs     = '/quiet /norestart ZoomAutoUpdate=True'
   validExitCodes = @(0)
   softwareName   = 'zoom*'
-  checksum       = '1c8e0f3dc13c2ed71a001b0acb0b393ca2307198e7c4d1865697b3ef00cf083d'
-  checksum64     = '9070A396A89EE62D2987942EF8E7E936FEF384334E8FCC58492EE0B2CC62D75B'
+  checksum       = '1C8E0F3DC13C2ED71A001B0ACB0B393CA2307198E7C4D1865697B3EF00CF083D'
+  checksum64     = 'F725BCA0198B470568AB65356A151C47B66985752CB7672569A7F7AFEBDA79DA'
   checksumType   = 'sha256'
   checksumType64 = 'sha256'
 }
