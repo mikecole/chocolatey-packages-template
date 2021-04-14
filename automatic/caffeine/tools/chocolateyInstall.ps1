@@ -1,4 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
+$checksum = '4d41607fef219e4edb23bddf2ff15312cf20ef158eb0ccd0ca7a1314c42dd579'
 
 $packageArgs = @{
   packageName    = 'caffeine'
@@ -6,7 +7,7 @@ $packageArgs = @{
   fileType       = 'zip'
   url            = 'http://www.zhornsoftware.co.uk/caffeine/caffeine.zip'
   validExitCodes = @(0)
-  checksum       = '1C8E0F3DC13C2ED71A001B0ACB0B393CA2307198E7C4D1865697B3EF00CF083D'
+  checksum       = $checksum 
   checksumType   = 'sha256'
 }
 
