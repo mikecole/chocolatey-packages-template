@@ -1,4 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
+$checksum = '7453D2FFAEAABD24888E384D5E54332B6A82A376BD34B4B153D98A436942DCE6'
+
 $packageArgs = @{
   packageName    = 'line'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -7,7 +9,7 @@ $packageArgs = @{
   silentArgs     = '/S'
   validExitCodes = @(0)
   softwareName   = 'Line*'
-  checksum       = '7453D2FFAEAABD24888E384D5E54332B6A82A376BD34B4B153D98A436942DCE6'
+  checksum       = $checksum
   checksumType   = 'sha256'
 }
 
