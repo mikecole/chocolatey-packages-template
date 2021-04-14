@@ -1,4 +1,3 @@
-﻿@@ -1,36 +0,0 @@
 ﻿$ErrorActionPreference = 'Stop'
 import-module au
 
