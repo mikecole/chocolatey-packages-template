@@ -23,7 +23,7 @@ function global:au_GetLatest {
     Write-Host $link.href
 
 	$temp_file = $env:TEMP + '\SSDTSetup.exe'
-	Invoke-WebRequest $link.href -OutFile $temp_file
+	Invoke-WebRequest $link.href -OutFile $temp_file -UseBasicParsing
 	Write-Host $temp_file
 
 	$version = (Get-Command $temp_file).Version
