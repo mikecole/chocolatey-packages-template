@@ -19,7 +19,7 @@ function global:au_GetLatest {
 
     $url_prefix = 'https://github.com/microsoft/AzureStorageExplorer/releases/download/v'
     $url_suffix = '/Windows_StorageExplorer.exe'
-    $version32 = $url.Replace($url_prefix, "").Replace($url_suffix, "")
+    $version32 = $url.ToLower().Replace($url_prefix.ToLower(), "").Replace($url_suffix.ToLower(), "")
 
     @{
         URL = $url
