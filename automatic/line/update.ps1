@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 import-module au
 
-$url = 'http://dl.desktop.line.naver.jp/naver/LINE/win/LineInst.exe'
+$url = 'https://desktop.line-scdn.net/win/new/LineInst.exe'
 
 function global:au_SearchReplace {
     @{
